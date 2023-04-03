@@ -20,7 +20,11 @@
 
 ## :house: Sobre o projeto
 
-Este é um projeto de uma página web simulando site de compras em especifico o smartphone da Apple, IPhone 14 como demonstrativo, com opções de compra e seleção de cores. O código HTML define a estrutura da página, enquanto o código CSS fornece estilos para os elementos da página e o código JavaScript implementa a lógica interativa, como a troca de cores e imagens do iPhone. No menu superior temos opções de navegação.
+Esta página é um modelo destinada a promover e vender o controle sem fio DualSense, que é um dos novos acessórios do PlayStation 5.
+
+A página começa com uma seção de cabeçalho que inclui uma imagem de logotipo da Playstaion, um botão de menu e uma barra de navegação com uma lista de links para outras seções da página. O botão do menu ativa uma função JavaScript que exibe ou oculta a lista de links.
+
+Em seguida, há uma seção principal da página com duas colunas, a primeira das quais contém uma descrição do DualSense e um botão de compra. A segunda coluna contém uma imagem do DualSense e um botão que permite ao usuário escolher entre diferentes estilos de controle. Quando o botão é clicado, a imagem do DualSense muda para corresponder ao estilo selecionado, e o texto e o preço do controle também são atualizados.
 
 ## :computer: Tecnologias
 
