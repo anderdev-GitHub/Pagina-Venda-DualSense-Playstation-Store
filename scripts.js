@@ -1,15 +1,15 @@
 
 const imagens = [
-  "/assets/controller-cosmic-red.png",
-  "/assets/controller-edge.png",
-  "/assets/controller-galactic-purple.png",
-  "/assets/controller-gray-camouflage.png",
-  "/assets/controller-hogwarts-legacy.png",
-  "/assets/controller-midnight-black.png",
-  "/assets/controller-new-pink.png",
-  "/assets/controller-starlight-blue.png",
-  "/assets/controller.png",
-  "/assets/controller-ragnarok.png"
+  "./assets/controller-cosmic-red.png",
+  "./assets/controller-edge.png",
+  "./assets/controller-galactic-purple.png",
+  "./assets/controller-gray-camouflage.png",
+  "./assets/controller-hogwarts-legacy.png",
+  "./assets/controller-midnight-black.png",
+  "./assets/controller-new-pink.png",
+  "./assets/controller-starlight-blue.png",
+  "./assets/controller.png",
+  "./assets/controller-ragnarok.png"
 ];
 
 const descricoes = [
