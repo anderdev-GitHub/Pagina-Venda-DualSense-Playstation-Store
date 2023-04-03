@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <title>Controle sem fio DualSense | O novo e inovador controle do PS5 | PlayStation</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img class="logo" src="/assets/logo.png" alt="logo">
+            <nav>
+                <ul id="menu-list">
+                    <li class="nav-li"><a class="nav-link">Consoles</a></li>
+                    <li class="nav-li"><a class="nav-link">Acessórios</a></li>
+                    <li class="nav-li"><a class="nav-link">Controles</a></li>
+                    <li class="nav-li"><a class="nav-link">Outros</a></li>
+                </ul>
+            </nav>
+            <img src="/assets/menu.png" alt="botao-menu" class="menu-icon" onclick="showMenu()">
+        </div>
+
+
+        <div class="row">
+            <div class="column-1">
+                <h2>Controles sem fio DualSense™</h2>
+                <h3 id="descricao">Descubra uma experiência de jogos mais profunda e altamente imersiva com o novo e inovador controle do PS5™.
+
+                </h3>
+                <p id="edition">Edição Padrão</p>
+                <h4 id="preco">R$ 399,90</h4>
+                <button class="buy">Comprar agora <img src="/assets/arrow.png" alt="seta"></button>
+            </div>
+
+           
+             <div class="column-2">
+                <img id="dualsense-img" class="dualsense" src="/assets/controller.png" alt="dualsense">
+                <div class="color-box"></div>
+                <button onclick="trocaDualsenseETextoEPreco()" class="new-controller">
+                    <h5>Escolha seu estilo:</h5>
+                    <img src="/assets/add.png" alt="next-controller">
+                </button>
+
+            </div>
+        </div>
+
+        <div class="social-links">
+            <img src="/assets/fb.png">
+            <img src="/assets/ig.png">
+            <img src="/assets/tw.png">
+        </div>
+
+    </div>
+</body>
+<script>
+    const menuList = document.getElementById("menu-list")
+    menuList.style.maxHeight = "0px"
+
+    function showMenu() {
+    if(menuList.style.maxHeight == "0px") {
+    menuList.style.maxHeight = "170px"
+    } else {
+        menuList.style.maxHeight = "0px"
+    }
+    }
+</script>
+</html>
