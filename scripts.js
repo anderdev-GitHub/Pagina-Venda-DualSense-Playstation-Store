@@ -66,3 +66,13 @@ function trocaDualsenseETextoEPreco() {
 }
 
 
+const menuList = document.getElementById("menu-list")
+menuList.style.maxHeight = "0px"
+
+function showMenu() {
+if(menuList.style.maxHeight == "0px") {
+menuList.style.maxHeight = "170px"
+} else {
+    menuList.style.maxHeight = "0px"
+}
+}
