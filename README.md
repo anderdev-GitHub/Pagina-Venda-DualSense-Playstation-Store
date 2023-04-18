@@ -2,7 +2,7 @@
 
 
 <h3 align="center">
-  Interaja com esse modelo de pagina web, onde você pode escolher a cor do seu IPhone favorito!
+  Interaja com esse modelo de pagina web, onde você pode escolher a cor do seu Controle favorito!
 </h3>
 
 <br>
